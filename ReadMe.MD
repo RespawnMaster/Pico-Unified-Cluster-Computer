@@ -18,6 +18,9 @@ Pico 5: Program Organizer Pico (Directs a program opened through the window mana
 
 Pico 6: Program Math Pico (Executes any math that a program may need such as spreadsheets)
 
+
+The Goal of the Program Processes would be to have some level of Multitasking, even if opening a program minimizes the currently open program and opens the requested program. Each Program Process would be attached to a ram bank controlled by either the Director, I/O, or Filesystem Pico. 
+
 Pico 7: Program Process 1 (Copys a program from the file system, and executes and outputs it to the Window System Pico.)
 
 Pico 8: Program Process 2 (Copys a program from the file system, and executes and outputs it to the Window System Pico.)
@@ -36,9 +39,9 @@ Pico 14: Program Process 8 (Copys a program from the file system, and executes a
 
 Pico 15: Wireless Pico 9 (Wireless from a Pico 2 W to allow for internet applications such as Email. Would send internet data to a running Program Process that requested it.)
 
-Pico 16: Sound Chip (Might be an Extra Program Process, and Sound generated on a different Chip)
+Pico 16: Sound Chip (Might be an Extra Program Process if pico 2 isn't powerful enough to passthrough browser audio. In this case,Sound would be generated on a different chip or microcontroller)
 
-Video Output Microcontroller (preferably something low power and atleast 8bit)
+Video Output Microcontroller (preferably something low power, atleast 8bit, and capible of running a 1080p display.)
 
 Raspberry Pi 5 (Browsing and Higher Power level programs)
 
