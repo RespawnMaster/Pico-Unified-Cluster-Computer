@@ -1,4 +1,4 @@
-This project is my Learning C++ attempt. I really want to learn, but get bored with online courses. 
+This project is my Learning Python and possibly C++ attempt. I really want to learn, but get bored with online courses. 
 The plan thus far is to connect up to 16 Pico 2's to act as a unified computing cluster. 
 It would function as a desktop, but all core processes would be split between each pico 2, 
 possibly a stronger microcontroller for a graphics card, and a Raspberry pi 5 that would boot up in 
